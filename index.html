@@ -16,21 +16,27 @@
         header {
             background-color: rgba(0, 123, 138, 0.9);
             color: white;
-            text-align: center;
-            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
         }
         header img {
-            max-width: 100px;
+            max-width: 80px; /* Tamaño del logo reducido */
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.8em;
         }
         nav {
             background-color: rgba(0, 95, 107, 0.9);
-            padding: 10px;
+            padding: 8px;
             text-align: center;
         }
         nav a {
             color: white;
             text-decoration: none;
-            margin: 0 15px;
+            margin: 0 10px;
             font-weight: bold;
         }
         section {
@@ -52,8 +58,10 @@
 <body>
     <header>
         <img src="Images/logosolo.png" alt="HR Move Logo">
-        <h1>HR Move</h1>
-        <p>Recursos Humanos en acción para lograr los Objetivos.</p>
+        <div>
+            <h1>HR Move</h1>
+            <p>Recursos Humanos en acción para lograr los Objetivos.</p>
+        </div>
     </header>
 
     <nav>
@@ -88,3 +96,4 @@
     </footer>
 </body>
 </html>
+
